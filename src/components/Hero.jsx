@@ -10,9 +10,9 @@ function Hero() {
                 <br />
                     brings you
                 <br />
-                    Music, dance & culture
+                    Music, dance & culture in
                 <br />
-                    in Düsseldorf & NRW region
+                    Düsseldorf & NRW region
                 </h1>
                 <button className="button" href="/menu">
                     <span>More </span>
