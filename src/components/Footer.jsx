@@ -21,7 +21,7 @@ function Footer () {
                     <h4>Contact Information</h4>
                     <div className='contact-info'>
                         <div className='contact-line'>
-                            <i class="fa-solid fa-envelope" style={{ color: '#f6f6e9' }}></i><a href="mailto:shadimaks93@gmail.com">shadimaks93@gmail.com</a>
+                            <i class="fa-solid fa-envelope" style={{ color: '#f6f6e9' }}></i><a href="mailto:habibiactproject@gmail.com">habibiactproject@gmail.com</a>
                         </div>
                         <div className='contact-line'>
                             <i class="fas fa-location-dot" style={{ color: '#f6f6e9' }}></i><p>  Düsseldorf, NRW</p>
