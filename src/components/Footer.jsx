@@ -12,9 +12,9 @@ function Footer () {
                     <h4>Navigation</h4>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/menu">Events</a></li>
-                        <li><a href="/reservation">About Us</a></li>
-                        <li><a href="/contact">Videos</a></li>
+                        <li><a href="/events">Events</a></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/videos">Videos</a></li>
                     </ul>
                 </div>
                 <div className='footer-col'>
