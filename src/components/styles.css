@@ -161,11 +161,11 @@ a:hover {
     background-image: url('hero-photo-1.png');
     background-size: cover;
     background-position: center;
-    min-height: 75vh;
+    height: 95dvh;
   }
 
   .hero-col {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-left: 20%;
   }
 
