@@ -158,7 +158,7 @@ a:hover {
   /*Hero*/
 
   .hero {
-    background-image: url('./assets/hero-photo-1.png');
+    background-image: url('hero-photo-1.png');
     background-size: cover;
     background-position: center;
     min-height: 75vh;
@@ -171,14 +171,18 @@ a:hover {
 
   .hero-headline {
     margin: 0 0 1rem;
-    animation: fadeInUp 1s forwards;
+    animation: fadeInUp 2s forwards;
     opacity: 0;
+  }
+
+  .hero button {
+    animation: fadeInUp 2s forwards;
   }
 
   /*About*/
 
   .about-section {
-    background-image: url('src/assets/bg-photo.png');
+    background-image: url('bg-photo.png');
     background-size: contain;
     background-position: center;
     min-height: 40vh;
@@ -232,6 +236,10 @@ a:hover {
   .nxt-container-col p {
     color:#f6f6e970;
     padding-top: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 11;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   .nxt-container-col i {
@@ -253,6 +261,7 @@ a:hover {
     background: #fff;
 
     /* Center slide text vertically */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -283,7 +292,8 @@ a:hover {
     justify-content: space-between;
     gap: 90px;
     margin-top: 50px;
-    overflow: scroll;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
   }
 
 
