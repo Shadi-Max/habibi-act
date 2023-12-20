@@ -15,16 +15,17 @@ html {
 }
 
 p {
-    color:#173b3d;
+    color: #4c5270;
     font-family: 'Arimo', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
+    opacity: 75%;
 }
 
 h1 {
     font-family: 'League Spartan', sans-serif;
     font-size: 2.5rem;
-    color: #f6f6e9;
+    color: #ffffff;
 }
 
 i {
@@ -39,7 +40,7 @@ hr {
 .button {
     display: inline-block;
     border-radius: 8px;
-    background-color:#ff8257;
+    background-color:#19a89e;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -95,7 +96,7 @@ hr {
   align-self: flex-end;
 	height: 22px;
 	width: 22px;
-	background-color:#ff8257;
+	background-color:#4c5270;
 	margin:0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
@@ -128,13 +129,13 @@ li {
 a {
     padding-left: 10px;
     text-decoration: none;
-    color: #f6f6e9;
+    color: #e598d8;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
 }
 
 a:hover {
-    color:#ff8257;
+    color:#945cb9;
     cursor: pointer;
 }
 
@@ -190,7 +191,7 @@ a:hover {
   }
 
   .about-title h1 {
-    color: #266469;
+    color: #4c5270;
   }
 
   .about-txt {
@@ -198,7 +199,7 @@ a:hover {
   }
 
   .about-txt p {
-    padding-top: 20px;
+    padding-top: 0px;
   }
 
   .nxt-evnt-container {
@@ -218,19 +219,19 @@ a:hover {
   }
 
   .nxt-container-col h1 {
-    color: #61a6ab;
+    color: #19a89e;
     padding-top: 10px;
   }
 
   .nxt-container-col h3 {
-    color: #f6f6e9;
+    color: #ffffff;
     font-size: 1.5rem;
     padding-top: 3px;
     font-weight: 400;
   }
 
   h2{
-    color: #ff8257;
+    color: #e598d8;
   }
 
   .nxt-container-col p {
@@ -243,7 +244,7 @@ a:hover {
   }
 
   .nxt-container-col i {
-    color: #ff8257;
+    color: #945cb9;
   }
 
   /* Image swiper in Next-Event Section*/
@@ -279,13 +280,13 @@ a:hover {
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: #173b3d;
+    background-color:#945cb9;
     padding: 40px 50px;
   }
 
   .media-partners-container h1{
     font-weight: 400;
-    color:#61a6ab;
+    color:#4c5270;
   }
   .media-partners-logos {
     display: flex;
@@ -301,7 +302,7 @@ a:hover {
  .past-events-title {
   padding-top: 8px;
   text-align: center;
-  background-color:#61a6ab;
+  background-color:#e598d8;
  }
 
 .events-container {
@@ -312,7 +313,7 @@ a:hover {
   justify-content: center;
   gap: 10px;
   max-width: 1200px;
-  background-color:#61a6ab;
+  background-color:#e598d8;
 
 
 }
@@ -323,7 +324,7 @@ a:hover {
   overflow: hidden;
   cursor: pointer;
   position: relative;
-  color: #266469;
+  color:#945cb9;
   box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
 
  img {
@@ -346,7 +347,7 @@ a:hover {
     inset: auto auto 30px 0px;
     margin: 0;
     color:#f6f6e9;
-    background-color: #266569;
+    background-color:#4c5270;
     transition: inset .3s .3s ease-out;
     font-family: 'Arimo', sans-serif;
     font-weight: 500;
@@ -360,7 +361,7 @@ a:hover {
     position: absolute;
     inset: auto auto 0px 0px;
     color:#f6f6e9;
-    background-color: #266569;
+    background-color:#4c5270;
     transition: inset .3s .3s ease-out;
     font-family: 'Arimo', sans-serif;
     font-weight: 400;
@@ -454,14 +455,18 @@ footer {
 }
 
 .footer-col p {
-  color: #f6f6e991;
+  color: #ffffff91;
   font-size: 1rem;
   padding-left: 14px;
 }
 
+.footer-col a {
+  color: #ffffff91;
+}
+
 .footer-col h4{
 	font-size: 18px;
-	color:#f6f6e9;
+	color:#ffffff;
 	text-transform: capitalize;
 	margin-bottom: 20px;
 	font-weight: 600;
@@ -473,7 +478,7 @@ footer {
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color:#266469;
+	background-color:#945cb9;
 	height: 2px;
 	box-sizing: border-box;
 	width: 60px;
@@ -501,7 +506,7 @@ footer {
 }
 
 .footer-col ul li a:hover{
-	color:#ff8257;
+	color:#945cb9;
   font-weight: 500;
 	/* padding-left: 8px; */
 }
@@ -528,8 +533,8 @@ footer {
 }
 
 .footer-col .social-links a:hover{
-	color:#ff8257;
-	background-color:#ff8257;
+	color:#945cb9;
+	background-color:#945cb9;
 }
 
 .contact-info {
@@ -575,6 +580,13 @@ footer {
         width: 300px;
         border-radius: 8px;
       }
+
+      .hero {
+
+        background-size:cover;
+        background-position: center;
+        height: 40dvh;
+      }
 }
 
 
@@ -612,7 +624,7 @@ footer {
     }
 
     .navbar li a:hover {
-        color:#ff8257;
+        color:#945cb9;
     }
 
     .menu-mobile i {
@@ -620,7 +632,7 @@ footer {
     }
 
     hr {
-        color:#f6f6e9;
+        color:#ffffff;
         opacity: 50%;
         margin: 10px 0px;
         margin-bottom: 0;
@@ -664,7 +676,7 @@ footer {
     }
 
     .footer-col h4::before{
-        background-color:;
+        background-color:#945cb9;
     }
 }
 

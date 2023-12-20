@@ -22,9 +22,9 @@ function NextEvent () {
             <div className='nxt-container-col'>
                 <h2>Next Event <i class="fa-solid fa-angles-right"></i></h2>
                 <h1>Arabtronica Night</h1>
+                <h3>[ DJ Party ]</h3>
                 <h3>07.10.2023</h3>
-                <h3>Zakk</h3>
-                <h3>Düsseldorf</h3>
+                <h3>Zakk, Düsseldorf</h3>
                 <hr></hr>
                 <p>
                 Habibi Act! präsentiert die Arabtronica Night - Klänge aus dem Nahen Osten. Ob westliche Club-Sounds mit arabischen Grooves, türkische Melodien gewürzt mit Jazz- und Funk-Elementen oder traditionelle Dabke mit Techno-Effekten, wir feiern die Vielfalt der Musik.
