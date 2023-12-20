@@ -162,7 +162,7 @@ a:hover {
     background-image: url('hero-photo-1.png');
     background-size: cover;
     background-position: center;
-    height: 95dvh;
+    height: 700px;
   }
 
   .hero-col {
@@ -585,7 +585,7 @@ footer {
 
         background-size:cover;
         background-position: center;
-        height: 80dvh;
+        height: 120dvh;
       }
 }
 
@@ -643,7 +643,7 @@ footer {
 
       background-size:cover;
       background-position: center;
-      height: 80dvh;
+      height: 120Vdvh;
     }
 
     .nxt-evnt-container {
