@@ -312,6 +312,7 @@ a:hover {
   justify-content: center;
   gap: 10px;
   max-width: 1200px;
+  background-color:#61a6ab;
 
 
 }
@@ -577,7 +578,7 @@ footer {
 }
 
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 767px){
 
     p {
         font-size: 1rem;
@@ -599,7 +600,7 @@ footer {
         padding-left: 0px;
         padding-right: 10px;
         padding-bottom: 10px;
-        z-index: 1;
+        z-index: 2;
     }
 
     .navbar ul.active {
@@ -620,9 +621,17 @@ footer {
 
     hr {
         color:#f6f6e9;
+        opacity: 50%;
         margin: 10px 0px;
         margin-bottom: 0;
         width: 120px;
+    }
+
+    .hero {
+
+      background-size:cover;
+      background-position: center;
+      height: 60dvh;
     }
 
     .nxt-evnt-container {
@@ -632,8 +641,9 @@ footer {
     }
 
     .swiper {
-        width: 250px;
-        height: 250px;
+        width:750px;
+        max-width: 100%;
+        height: auto;
     }
 
     .nxt-container-col {
@@ -644,20 +654,17 @@ footer {
         padding: 50px 40px
     }
 
-    .footer {
-        text-align: center;
-    }
 
     .footer-nav {
       flex-direction: column;
       gap:5px;
-      padding: 0;
+      padding: auto;
       height: 700px;
       padding-bottom: 20px;
     }
 
     .footer-col h4::before{
-        background-color: #33333300;
+        background-color:;
     }
 }
 
