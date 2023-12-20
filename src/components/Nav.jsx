@@ -35,11 +35,11 @@ class Nav extends Component {
                 <ul className={this.state.clicked ?
                 ".navbar ul active" : ".navbar ul"}>
                     <li>
-                        <a ref='/home'>Home</a>
+                        <a href='/home'>Home</a>
                     </li>
                     <hr></hr>
                     <li>
-                        <a ref='/events'>Events</a>
+                        <a href="/events">Events</a>
                     </li>
                     <hr></hr>
                     <li>
@@ -55,7 +55,7 @@ class Nav extends Component {
                     </li>
                     <hr></hr>
                     <li>
-                        <a ref='/videos'>Videos</a>
+                        <a href='/videos'>Videos</a>
                     </li>
                 </ul>
             </div>

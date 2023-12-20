@@ -296,6 +296,130 @@ a:hover {
     scroll-snap-type: x mandatory;
   }
 
+ /* Image Cards*/
+
+ .past-events-title {
+  padding-top: 8px;
+  text-align: center;
+  background-color:#61a6ab;
+ }
+
+.events-container {
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 1200px;
+  background-color: #61a6ab;
+
+
+}
+
+ .event-card {
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  color: #266469;
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+
+ img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.;
+    transition: opacity .2s ease-out;
+    filter: brightness(80%);
+  }
+
+  h2 {
+    width: 320px;
+    padding: 0px 25px;
+    padding-top: 5px;
+    position: absolute;
+    inset: auto auto 30px 0px;
+    margin: 0;
+    color:#f6f6e9;
+    background-color: #266569;
+    transition: inset .3s .3s ease-out;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    padding: 5px 25px;
+    padding-bottom: 5px;
+    width: 320px;
+    position: absolute;
+    inset: auto auto 0px 0px;
+    color:#f6f6e9;
+    background-color: #266569;
+    transition: inset .3s .3s ease-out;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+  }
+
+  p, a {
+    font-family: 'Arimo', sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    opacity: 0;
+    max-width: 80%;
+    transition: opacity .3s ease-out;
+  }
+
+  p {
+    inset: auto auto 50px 30px;
+    color: #f6f6e9;
+  }
+
+  a {
+    inset: auto auto 40px 30px;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  i {
+    color: #f6f6e9;
+  }
+
+  &:hover h2 {
+    inset: auto auto 220px 30px;
+    transition: inset .3s ease-out;
+  }
+
+  &:hover h3 {
+    inset: auto auto 190px 30px;
+    width: 240px;
+    transition: inset .3s ease-out;
+    transition: all 0.5s ease;
+  }
+
+  &:hover p, &:hover a {
+    opacity: 1;
+    transition: opacity .5s .1s ease-in;
+  }
+
+  &:hover img {
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+    filter: sepia(19%) blur(1px) brightness(58%) ;
+    transition: all 0.5s ease;
+  }
+
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+}
+
 
 /*Footer*/
 

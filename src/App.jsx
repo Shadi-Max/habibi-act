@@ -1,22 +1,22 @@
-import Nav from './components/Nav'
-import Hero from './components/Hero'
-import About from './components/About'
-import NextEvent from './components/NextEvent'
-import MediaPartners from './components/MediaPartners'
-import Footer from './components/Footer'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Events from './pages/Events';
+import Videos from './pages/Videos';
 
 
 function App() {
 
   return (
-    <>
-      <Nav />
-      <Hero />
-      <About />
-      <NextEvent />
-      <MediaPartners />
-      <Footer />
-    </>
+      <>
+        <Router>
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/events" element={<Events />} />
+            <Route path="/videos" element={<Videos />} />
+          </Routes>
+        </Router>
+      </>
   )
 }
 
