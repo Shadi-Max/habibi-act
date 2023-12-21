@@ -332,7 +332,7 @@ a:hover {
   overflow: hidden;
   cursor: pointer;
   position: relative;
-  color:#945cb9;
+  color:#945cb900;
   opacity: 100%;
   box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
 
@@ -343,9 +343,8 @@ a:hover {
     height: 100%;
     top: 0;
     left: 0;
-    opacity: 0.;
     transition: opacity .2s ease-out;
-    filter: brightness(80%);
+    filter: brightness(80%) opacity(85%);
   }
 
   h2 {
