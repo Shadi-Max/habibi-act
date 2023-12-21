@@ -50,7 +50,7 @@ function NextEvent () {
                         <SwiperSlide><img src={six} alt='6'></img></SwiperSlide>
                     </Swiper>
                 </div>
-                <button className="button" onClick={() => window.open('https://www.zakk.de/event-detail?event=12193')}>
+                <button className="button" onClick={() => { window.location.href = 'https://www.zakk.de/event-detail?event=12193' }}>
                     <span>Tickets</span>
                 </button>
             </div>

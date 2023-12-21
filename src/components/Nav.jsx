@@ -14,7 +14,7 @@ class Nav extends Component {
     return (
         <nav className="navbar">
             <div className='navbar-logo'>
-                <img src={Logo} alt='Habibi Act' width='75'></img>
+                <img src={Logo} alt='Habibi Act' width='75' onClick={() => { window.location.href = '/home' }}></img>
             </div>
             <div className='navbar-social-links'>
                 <a href="https://m.facebook.com/@habibi.act"><i className="fab fa-facebook-f"></i></a>

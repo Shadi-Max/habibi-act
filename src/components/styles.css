@@ -281,7 +281,6 @@ a:hover {
   }
 
   .media-partners-container {
-    display: grid;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -296,10 +295,8 @@ a:hover {
   .media-partners-logos {
     display: flex;
     justify-content: space-between;
-    gap: 90px;
+    gap: 50px;
     margin-top: 50px;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
   }
 
  /* Image Cards*/
@@ -325,8 +322,6 @@ a:hover {
   gap: 10px;
   max-width: 100%;
   background-color:#e598d8;
-
-
 }
 
  .event-card {
@@ -338,6 +333,7 @@ a:hover {
   cursor: pointer;
   position: relative;
   color:#945cb9;
+  opacity: 100%;
   box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
 
  img {
@@ -655,7 +651,6 @@ footer {
 
       hr {
         color:#261b29;
-        display: none;
     }
 
       .events-container {
@@ -789,6 +784,15 @@ footer {
     .contact-info {
       align-items: start;
       justify-content: flex-start;
+    }
+
+    .media-partners-logos {
+      display: inline-block;
+      margin-top: 30px;
+    }
+
+    .media-partners-logos img {
+      padding: 15px;
     }
 }
 
