@@ -653,6 +653,10 @@ footer {
         background-position: center;
       }
 
+      .navbar hr{
+        color: #261b29;
+      }
+
       .events-container {
         display:flex;
         flex-direction: row;
@@ -734,6 +738,10 @@ footer {
         margin: 10px 0px;
         margin-bottom: 0;
         width: 120px;
+    }
+
+    .navbar hr{
+      color: #ffffff;
     }
 
     .hero {
