@@ -305,6 +305,11 @@ a:hover {
   background-color:#e598d8;
  }
 
+ .past-events-title h1{
+  font-weight: 400;
+  color:#4c5270;
+ }
+
 .events-container {
   padding: 20px 15px;
   display: flex;
@@ -590,7 +595,7 @@ footer {
 
         background-size:cover;
         background-position: center;
-        height: 120dvh;
+        height: 120vh;
       }
 
       .events-container {
@@ -663,7 +668,7 @@ footer {
 
       background-size:cover;
       background-position: center;
-      height: 120Vdvh;
+      height: 100vh;
       padding-left: 5%;
     }
 

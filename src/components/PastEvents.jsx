@@ -3,7 +3,9 @@ import one from '../assets/arabtronica/1.png';
 import EventPhoto2 from '../assets/past-events/milad-khawam.png';
 import EventPhoto3 from '../assets/past-events/abo-gabi.jpg';
 import EventPhoto4 from '../assets/past-events/habibi-act-ping.jpg';
-import EventPhoto5 from '../assets/past-events/habibi-act-open-mic.jpg';
+import EventPhoto5 from '../assets/past-events/worringer-weekender.png';
+import EventPhoto6 from '../assets/past-events/habibi-act-open-mic.jpg';
+
 
 function PastEvents() {
     return (
@@ -69,7 +71,20 @@ function PastEvents() {
                     </div>
             </div>
             <div className = "event-card">
-                <img src={EventPhoto5} alt="Arabtronica Night"></img>
+                <img src={EventPhoto5} alt="Habibi Act @ La Terazza"></img>
+                <div className="card-content">
+                    <div className='card-title'>
+                        <h2>HA @ La Terrazza</h2>
+                        <h4>DJ Party</h4>
+                        <h3><i class="fa-solid fa-location-dot"></i> Düsseldorf . <i class="fa-solid fa-calendar-days"></i> 24.06.2023</h3>
+                    </div>
+                    <p>
+                        Habibi Act! presents DJ Sets from Shadi Max & Pekmez Papi @ La Terraza - In collabration with Worringer Weekender.
+                    </p>
+                    </div>
+            </div>
+            <div className = "event-card">
+                <img src={EventPhoto6} alt="Habibi Act Open Mic"></img>
                 <div className="card-content">
                     <div className='card-title'>
                         <h2>Habibi Open-Stage</h2>
@@ -78,62 +93,6 @@ function PastEvents() {
                     </div>
                     <p>
                         Wir freuen uns sehr, unser erstes Event vorzustellen, Habibi Act! Begleite uns am 27. April in Düsseldorf, Deutschland, während wir Vielfalt und Inklusion mit Musik, Tanz und Kunst feiern.
-                    </p>
-                    </div>
-            </div>
-            <div className = "event-card">
-                <img src={one} alt="Arabtronica Night"></img>
-                <div className="card-content">
-                    <div className='card-title'>
-                        <h2>Arabtronica Night</h2>
-                        <h4>DJ Party</h4>
-                        <h3><i class="fa-solid fa-location-dot"></i> Düsseldorf . <i class="fa-solid fa-calendar-days"></i> 07.10.2023</h3>
-                    </div>
-                    <p>
-                        Habibi Act! präsentiert die Arabtronica Night - Klänge aus dem Nahen Osten.
-                        Erlebt mit uns diese spannende musikalische Erfahrung und tanzt zu elektronischer Musik mit östlichen Klängen und Vocals.
-                    </p>
-                    </div>
-            </div>
-            <div className = "event-card">
-                <img src={one} alt="Arabtronica Night"></img>
-                <div className="card-content">
-                    <div className='card-title'>
-                        <h2>Arabtronica Night</h2>
-                        <h4>DJ Party</h4>
-                        <h3><i class="fa-solid fa-location-dot"></i> Düsseldorf . <i class="fa-solid fa-calendar-days"></i> 07.10.2023</h3>
-                    </div>
-                    <p>
-                        Habibi Act! präsentiert die Arabtronica Night - Klänge aus dem Nahen Osten.
-                        Erlebt mit uns diese spannende musikalische Erfahrung und tanzt zu elektronischer Musik mit östlichen Klängen und Vocals.
-                    </p>
-                    </div>
-            </div>
-            <div className = "event-card">
-                <img src={one} alt="Arabtronica Night"></img>
-                <div className="card-content">
-                    <div className='card-title'>
-                        <h2>Arabtronica Night</h2>
-                        <h4>DJ Party</h4>
-                        <h3><i class="fa-solid fa-location-dot"></i> Düsseldorf . <i class="fa-solid fa-calendar-days"></i> 07.10.2023</h3>
-                    </div>
-                    <p>
-                        Habibi Act! präsentiert die Arabtronica Night - Klänge aus dem Nahen Osten.
-                        Erlebt mit uns diese spannende musikalische Erfahrung und tanzt zu elektronischer Musik mit östlichen Klängen und Vocals.
-                    </p>
-                    </div>
-            </div>
-            <div className = "event-card">
-                <img src={one} alt="Arabtronica Night"></img>
-                <div className="card-content">
-                    <div className='card-title'>
-                        <h2>Arabtronica Night</h2>
-                        <h4>DJ Party</h4>
-                        <h3><i class="fa-solid fa-location-dot"></i> Düsseldorf . <i class="fa-solid fa-calendar-days"></i> 07.10.2023</h3>
-                    </div>
-                    <p>
-                        Habibi Act! präsentiert die Arabtronica Night - Klänge aus dem Nahen Osten.
-                        Erlebt mit uns diese spannende musikalische Erfahrung und tanzt zu elektronischer Musik mit östlichen Klängen und Vocals.
                     </p>
                     </div>
             </div>
