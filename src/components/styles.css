@@ -344,7 +344,7 @@ a:hover {
     top: 0;
     left: 0;
     transition: opacity .2s ease-out;
-    filter: brightness(80%) opacity(85%);
+    filter: brightness(80%) opacity(95%);
   }
 
   h2 {
