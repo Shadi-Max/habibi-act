@@ -28,7 +28,7 @@ function NextEvent () {
                 <hr></hr>
                 <p>
                 Habibi Act! präsentiert die Arabtronica Night - Klänge aus dem Nahen Osten. Ob westliche Club-Sounds mit arabischen Grooves, türkische Melodien gewürzt mit Jazz- und Funk-Elementen oder traditionelle Dabke mit Techno-Effekten, wir feiern die Vielfalt der Musik.
-                Erlebt mit uns diese spannende musikalische Erfahrung und tanzt zu elektronischer Musik mit östlichen Klängen und Vocals.
+                Erlebt mit uns diese spannende musikalische Erfahrung und tanzt zu elektronischer Musik mit östlichen Klängen und Vocals.<a href='https://www.zakk.de/event-detail?event=12193'>...More Infos</a>
                 </p>
             </div>
             <div className='nxt-container-col'>
@@ -50,7 +50,7 @@ function NextEvent () {
                         <SwiperSlide><img src={six} alt='6'></img></SwiperSlide>
                     </Swiper>
                 </div>
-                <button className="button" href="https://www.zakk.de/event-detail?event=12193">
+                <button className="button" onClick={() => window.open('https://www.zakk.de/event-detail?event=12193')}>
                     <span>Tickets</span>
                 </button>
             </div>

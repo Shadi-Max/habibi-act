@@ -14,7 +14,7 @@ function Hero() {
                 <br />
                     Düsseldorf & NRW region
                 </h1>
-                <button className="button" href="/menu">
+                <button className="button" onClick href="#about">
                     <span>More </span>
                 </button>
             </div>
