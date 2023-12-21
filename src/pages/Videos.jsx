@@ -1,13 +1,13 @@
 import Nav from '../components/Nav'
-import NextEvent from '../components/NextEvent'
 import Footer from '../components/Footer'
+import VideosComponent from '../components/VideosComponent';
 
 function Videos() {
     return (
         <>
             <div>
                 <Nav />
-                <NextEvent />
+                <VideosComponent />
                 <Footer />
             </div>
         </>

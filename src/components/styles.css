@@ -165,15 +165,20 @@ a:hover {
     height: 700px;
   }
 
+  .events-hero .hero {
+    background-image: url('hero-photo-2.png');;
+  }
+
   .hero-col {
     padding-top: 100px;
-    padding-left: 20%;
+    padding: 20% 10%;
   }
 
   .hero-headline {
     margin: 0 0 1rem;
     animation: fadeInUp 2s forwards;
     opacity: 0;
+    text-transform: capitalize;
   }
 
   .hero button {
@@ -299,7 +304,7 @@ a:hover {
 
  /* Image Cards*/
 
- .past-events-title {
+ .past-events-title, .videos-title {
   padding-top: 8px;
   text-align: center;
   background-color:#e598d8;
@@ -314,6 +319,7 @@ a:hover {
   padding: 20px 15px;
   display: flex;
   align-items: center;
+  text-align: center;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
@@ -426,6 +432,56 @@ a:hover {
 
 .material-symbols-outlined {
   vertical-align: middle;
+}
+
+/*Videos*/
+
+.videos-title h1 {
+  font-weight: 400;
+  color:#4c5270;
+  padding-top: 20px;
+}
+
+.video-title h2{
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+.videos-container {
+  display: grid;
+  margin: 0 auto;
+  padding: 20px 15px;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 100%;
+  background-color:#e598d8;
+}
+
+.video-card {
+  padding-top: 50px;
+  max-Width: 1000px;
+}
+
+.video-frame {
+  position: relative;
+  width: 960px;
+  height: 500px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  color:#945cb9;
+
 }
 
 
@@ -595,7 +651,6 @@ footer {
 
         background-size:cover;
         background-position: center;
-        height: 120vh;
       }
 
       .events-container {
@@ -611,6 +666,23 @@ footer {
         min-width: 450px;
         min-width: 300px;
         min-height: 300px;
+      }
+
+      .video-title h2{
+        font-size: 1.2rem;
+      }
+
+      .videos-container {
+        max-width: 1000px;
+        display: block;
+      }
+
+      .video-frame {
+        width: auto;
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
       }
 }
 
@@ -668,8 +740,7 @@ footer {
 
       background-size:cover;
       background-position: center;
-      height: 100vh;
-      padding-left: 5%;
+      padding: 0 0%;
     }
 
     .nxt-evnt-container {

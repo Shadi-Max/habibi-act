@@ -8,9 +8,9 @@ function Hero() {
                 <h1 className='hero-headline'>
                     HABIBI ACT!
                 <br />
-                    brings you
+                    Brings You
                 <br />
-                    Music, dance & culture in
+                    Music, Dance & Culture In
                 <br />
                     Düsseldorf & NRW region
                 </h1>
