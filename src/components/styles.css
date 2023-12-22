@@ -129,7 +129,7 @@ li {
 a {
     padding-left: 10px;
     text-decoration: none;
-    color: #e598d8;
+    color:#fff;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
 }
@@ -718,14 +718,6 @@ footer {
 
     .navbar li {
         font-size: 1.2rem;
-    }
-
-    .navbar li a{
-      color:#fff;
-    }
-
-    .navbar li a:hover {
-        color:#e598d8;
     }
 
     .menu-mobile i {
