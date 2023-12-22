@@ -162,7 +162,7 @@ a:hover {
     background-image: url('hero-photo-1.png');
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 800px;
   }
 
   .events-hero .hero {
@@ -650,6 +650,7 @@ footer {
 
       hr {
         color:#261b29;
+        display: none;
     }
 
       .events-container {
@@ -733,6 +734,7 @@ footer {
         margin: 10px 0px;
         margin-bottom: 0;
         width: 120px;
+        display: block;
     }
 
     .hero {
