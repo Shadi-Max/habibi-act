@@ -720,8 +720,12 @@ footer {
         font-size: 1.2rem;
     }
 
+    .navbar li a{
+      color:#fff;
+    }
+
     .navbar li a:hover {
-        color:#945cb9;
+        color:#e598d8;
     }
 
     .menu-mobile i {
